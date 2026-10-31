@@ -1,0 +1,89 @@
+# ====================================================================
+# Git Ignore for Maze DAA Project (Python / Pygame)
+# ====================================================================
+
+# --- Bytecode and Python Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.pyo
+
+# --- Virtual Environments ---
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+bin/
+include/
+lib/
+lib64/
+
+# --- Temporary Word & Office Lock Files ---
+~$*.docx
+~$*.doc
+~$*.xlsx
+~$*.pptx
+
+# --- Scratch / Temporary Image Captures ---
+screenshot_initial.png
+*.tmp
+*.temp
+*.bak
+
+# --- Operating System Files ---
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+
+# --- IDE and Editor Configurations ---
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains (PyCharm, IntelliJ)
+.idea/
+*.iws
+*.iml
+
+# Sublime Text / Atom
+*.sublime-project
+*.sublime-workspace
+.atom/
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+\#*\#
+.\#*
+
+# --- Packaging, Distribution & PyInstaller ---
+build/
+dist/
+*.egg-info/
+*.egg
+*.spec
+
+# --- Testing, Profiling & Logs ---
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
